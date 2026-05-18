@@ -1,0 +1,85 @@
+# My GIT ignore etemplate v.0.2
+# -------------------------
+# Python cache & artifacts
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+
+# Byte-compiled / optimized / DLL files
+*.dll
+*.dylib
+
+# -------------------------
+# Virtual environments
+# -------------------------
+venv/
+env/
+.venv/
+.env/
+
+# -------------------------
+# Distribution / packaging
+# -------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# -------------------------
+# Logs & temp files
+# -------------------------
+*.log
+*.tmp
+*.temp
+*.bak
+
+# -------------------------
+# IDE / Editor settings
+# -------------------------
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------
+# OS-generated files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Test artifacts
+# -------------------------
+.coverage
+htmlcov/
+pytest_cache/
+
+# -------------------------
+# Jupyter
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# MyPy / Type checking
+# -------------------------
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# -------------------------
+# Local configs
+# -------------------------
+*.env
+*.ini
+*.cfg
