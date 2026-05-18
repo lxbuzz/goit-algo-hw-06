@@ -8,7 +8,7 @@ This project implements an address book using OOP principles.
 - Add records
 - Find record by name
 - Delete record
-- Pretty string output
+- String output
 
 ### Record
 - Store name and multiple phones
